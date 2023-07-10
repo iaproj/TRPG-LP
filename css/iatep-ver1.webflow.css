@@ -78,6 +78,7 @@ a {
   background-position: 50% 10%;
   background-repeat: repeat;
   background-size: cover;
+  background-attachment: scroll;
   justify-content: center;
   align-items: flex-start;
   padding-top: 20vh;
@@ -89,31 +90,70 @@ a {
 .section.center.dice {
   height: auto;
   min-height: 90vh;
-  background-image: url('../images/DSC01077（大）.png');
+  background-image: url('../images/testplay-2.png');
   background-position: 100%;
   background-size: cover;
+  padding-top: 10vh;
 }
 
 .section.center.ho {
   min-height: 90vh;
-  background-image: url('../images/中庭_chara.png');
-  background-size: cover;
+  background-image: url('../images/addvenceRuleTop.jpg');
+  background-position: 50%;
+  padding-top: 10vh;
 }
 
 .section.center.rules {
   height: auto;
-  min-height: 60vh;
+  min-height: 50vh;
   background-color: #fff;
-  background-image: url('../images/board_01-02.png'), url('../images/board_01-02.png');
-  background-position: 50%, 50%;
-  background-size: cover, cover;
+  background-image: url('../images/ab47-25948e7455bc-2のコピー.png');
+  background-position: 50%;
+  background-size: cover;
+  padding-top: 5vh;
 }
 
 .section.center.session {
-  min-height: 90vh;
+  min-height: 50vh;
   background-color: #2a2a2a;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-image: url('../images/ab47-25948e7455bc-2のコピー.png'), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-position: 50% 100%, 0 0;
+  background-size: cover, auto;
   border: 1px #000;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.section.center.session.gameboard {
+  min-height: 60vh;
+  background-image: url('../images/DSC02394（大）.png'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50%, 0 0;
+  background-repeat: repeat, repeat;
+  background-size: cover, auto;
+}
+
+.section.center.session.parkcard {
+  background-image: url('../images/mv_monocro.png');
+  background-position: 0 0;
+  background-size: cover;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.section.center.session.copy_trpg {
+  min-height: 60vh;
+  background-image: url('../images/DSC02463（大）.png'), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-position: 50%, 0 0;
+  background-size: cover, auto;
+}
+
+.section.center.session.perkcard {
+  min-height: 60vh;
+  background-image: url('../images/iab47-25948e7455bc-2.png'), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-position: 50%, 0 0;
+  background-size: cover, auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .section.center.title {
@@ -180,7 +220,7 @@ a {
 
 .section.wide.img {
   height: 0;
-  min-height: 90vh;
+  min-height: 120vh;
   -webkit-text-fill-color: inherit;
   background-color: #000;
   background-image: url('../images/DSC01374-1.png');
@@ -189,8 +229,8 @@ a {
   background-attachment: scroll;
   background-clip: padding-box;
   border-radius: 0;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 
 .section.wide.purple {
@@ -205,9 +245,11 @@ a {
 .section.wide.img2 {
   height: 0;
   min-height: 90vh;
+  text-shadow: 0 0 #000;
+  background-image: url('../images/aboutTrpg.png');
   background-position: 50%;
   background-size: cover;
-  padding-top: 10vh;
+  padding-top: 5vh;
   padding-bottom: 10vh;
 }
 
@@ -220,6 +262,8 @@ a {
 
 .section.qa {
   background-color: #1b1b1b;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .section.top {
@@ -477,8 +521,10 @@ a {
 
 .h3 {
   color: #fff;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: Hina Mincho, sans-serif;
+  font-size: 35px;
   font-weight: 500;
 }
 
@@ -1027,6 +1073,10 @@ a {
   line-height: 40px;
 }
 
+.paragraph-3.copy {
+  text-shadow: 0 1px 5px #000;
+}
+
 .background-video {
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 0 0;
@@ -1091,7 +1141,28 @@ a {
 
 .heading-4 {
   margin-top: 0;
+  margin-bottom: 60px;
   font-family: Hina Mincho, sans-serif;
+  font-size: 45px;
+}
+
+.heading-4.credit {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.heading-4.credit.name {
+  padding-top: 10px;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.heading-4.credit.category {
+  text-decoration: none;
 }
 
 .wrap-2 {
@@ -1109,12 +1180,20 @@ a {
 }
 
 .wrap-2.photo {
-  max-width: 600px;
-  background-image: url('../images/testplay-2.png');
-  background-position: 0 0;
+  width: auto;
+  max-width: none;
+  min-height: 650px;
+  min-width: 650px;
+  background-image: url('../images/アイテム裏-1.png');
+  background-position: 50%;
   background-size: cover;
   align-self: center;
+  padding-top: 40px;
   padding-bottom: 50px;
+}
+
+.wrap-2.photo.sp {
+  display: none;
 }
 
 .image-5 {
@@ -1172,7 +1251,8 @@ a {
 .heading-6 {
   text-align: center;
   align-self: center;
-  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 480px;
   padding-left: 0;
   font-family: Hina Mincho, sans-serif;
   font-size: 35px;
@@ -1180,6 +1260,10 @@ a {
 
 .heading-6.sub {
   font-size: 25px;
+}
+
+.heading-6.sinario {
+  margin-bottom: 10vh;
 }
 
 .container-2 {
@@ -1210,7 +1294,7 @@ a {
   text-align: left;
   background-color: rgba(0, 0, 0, 0);
   align-self: flex-start;
-  margin-left: 20vw;
+  margin: 0 15vw 0 20vw;
   padding: 0 20px 0 0;
   font-family: Hina Mincho, sans-serif;
   font-size: 18px;
@@ -1219,6 +1303,20 @@ a {
 
 .paragraph-5.dice {
   font-size: 18px;
+}
+
+.paragraph-5.ho {
+  max-width: 75vw;
+}
+
+.paragraph-5.rules {
+  max-width: 800px;
+  align-self: center;
+  margin-left: 0;
+  margin-right: 10vw;
+  padding-left: 0;
+  padding-right: 20px;
+  font-size: 22px;
 }
 
 .heading-7 {
@@ -1237,7 +1335,7 @@ a {
 }
 
 .paragraph-6.qa {
-  max-width: 600px;
+  max-width: 650px;
   text-align: left;
 }
 
@@ -1400,6 +1498,7 @@ a {
   justify-content: space-around;
   align-items: center;
   justify-items: center;
+  margin-left: 20vw;
   padding: 10px 15px;
   font-family: Hina Mincho, sans-serif;
   font-size: 20px;
@@ -1489,7 +1588,7 @@ a {
 }
 
 .heading11 {
-  width: 250px;
+  width: 260px;
   color: #fff;
   text-align: left;
   font-family: Hina Mincho, sans-serif;
@@ -1535,15 +1634,15 @@ a {
   padding-left: 5px;
 }
 
-.image-16 {
-  margin-bottom: 10px;
+.titleimage {
+  margin-bottom: 19px;
   margin-left: 0;
   margin-right: 10px;
   padding-left: 0;
   display: block;
 }
 
-.image-16.res, .button-4 {
+.titleimage.res, .button-4 {
   display: none;
 }
 
@@ -1673,6 +1772,37 @@ a {
   display: none;
 }
 
+.image-25 {
+  align-self: center;
+}
+
+.image-26 {
+  display: block;
+}
+
+.image-27 {
+  max-width: 100%;
+  align-self: center;
+  padding: 30px 39px 30px 40px;
+}
+
+.image-28 {
+  display: none;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  font-family: Hina Mincho, sans-serif;
+  font-size: 18px;
+}
+
+.credit.iapro {
+  font-size: 25px;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -1699,9 +1829,32 @@ a {
     padding-right: 0;
   }
 
+  .section.center.dice {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .section.center.ho {
+    background-position: 50%;
+    padding-bottom: 10vh;
+  }
+
+  .section.center.session {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .section.center.session.perkcard {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .section.qa {
     color: #000;
     background-color: #000;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 20px;
   }
 
   .hero {
@@ -1719,7 +1872,7 @@ a {
   }
 
   .wrap.sinario {
-    margin-top: 0;
+    margin-top: 20px;
     margin-left: 8vw;
   }
 
@@ -1844,6 +1997,14 @@ a {
     display: inline;
   }
 
+  .heading-4 {
+    margin-bottom: 50px;
+  }
+
+  .heading-4.credit.name {
+    font-size: 20px;
+  }
+
   .wrap-2 {
     width: auto;
     margin-left: 0;
@@ -1852,8 +2013,14 @@ a {
 
   .wrap-2.photo {
     max-width: 700px;
-    min-width: 600px;
+    min-width: 650px;
     object-fit: fill;
+    background-size: cover;
+    padding-top: 40px;
+  }
+
+  .heading-6 {
+    margin-top: 21px;
   }
 
   .paragraph-5 {
@@ -1867,6 +2034,7 @@ a {
   }
 
   .paragraph-5.ho {
+    max-width: 75vw;
     margin-right: 5vw;
   }
 
@@ -1886,7 +2054,11 @@ a {
   .grid-2 {
     justify-content: center;
     justify-items: center;
-    margin-left: 0;
+    margin-left: 12vw;
+  }
+
+  .heading-10 {
+    margin-top: 0;
   }
 
   .text-block-10 {
@@ -1903,9 +2075,10 @@ a {
     padding-left: 5px;
   }
 
-  .image-16 {
+  .titleimage {
     max-width: 60vw;
     align-self: center;
+    margin-bottom: 19px;
     display: block;
   }
 
@@ -1962,12 +2135,48 @@ a {
     align-self: center;
     margin-left: 0;
   }
+
+  .image-27 {
+    padding: 20px 10vw 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 28px;
     line-height: 38px;
+  }
+
+  .section.center.dice {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .section.center.session.parkcard {
+    clear: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    font-size: 1445px;
+  }
+
+  .section.center.session.copy_trpg {
+    background-image: url('../images/DSC02463（大）.png'), linear-gradient(to bottom, null, null);
+    background-position: 50%, 0 0;
+  }
+
+  .section.wide.img {
+    padding-top: 5vh;
+  }
+
+  .section.wide.img2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section.qa {
+    padding-left: 3vw;
+    padding-right: 20px;
   }
 
   .section.top {
@@ -2006,15 +2215,24 @@ a {
   }
 
   .wrap.sinario {
-    max-width: 250px;
+    max-width: 400px;
     min-width: auto;
+    padding-right: 0;
+  }
+
+  .wrap.ho {
+    width: auto;
+    max-width: 700px;
+    align-self: flex-start;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .wrap.genre {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     grid-template-rows: auto auto;
-    grid-template-columns: 2.5fr 2fr;
+    grid-template-columns: 2.5fr 2fr 1fr 1fr;
     grid-auto-columns: 1fr;
     display: grid;
   }
@@ -2026,6 +2244,11 @@ a {
   .wrap.genre.spwide {
     grid-template-rows: auto;
     grid-template-columns: 1.25fr 2fr;
+  }
+
+  .wrap.situation {
+    margin-left: 10vw;
+    padding-left: 0;
   }
 
   .hero-image {
@@ -2083,6 +2306,10 @@ a {
     justify-content: space-between;
   }
 
+  .heading-4 {
+    font-size: 28px;
+  }
+
   .wrap-2 {
     width: 100%;
     max-width: none;
@@ -2094,12 +2321,27 @@ a {
     display: flex;
   }
 
+  .wrap-2.photo {
+    height: auto;
+    min-height: 800px;
+    min-width: 450px;
+    background-image: url('../images/2x1.png');
+  }
+
   .heading-6 {
-    font-size: 18px;
+    font-size: 28px;
+  }
+
+  .heading-6.sinario {
+    margin-top: 20px;
   }
 
   .paragraph-5, .paragraph-5.story {
     font-size: 13px;
+  }
+
+  .paragraph-5.ho {
+    padding-right: 20px;
   }
 
   .menu-button-2 {
@@ -2110,27 +2352,50 @@ a {
     font-size: 13px;
   }
 
+  .grid-2 {
+    margin-left: 70px;
+    padding-left: 0;
+    padding-right: 30px;
+  }
+
   .image-15 {
     max-width: 80%;
   }
 
+  .heading-10 {
+    padding-right: 0;
+    line-height: 30px;
+  }
+
+  .heading11 {
+    align-self: flex-start;
+  }
+
   .text-block-10 {
     min-width: 15vw;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: visible;
   }
 
   .text-block-10.horror {
     min-width: 0;
+    margin-left: 0;
+    padding-bottom: 12px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .container-7 {
     max-width: 50vw;
+    overflow: visible;
   }
 
   .container-7.horror {
-    max-width: 40vw;
+    max-width: 50vw;
   }
 
-  .image-16 {
+  .titleimage {
     float: none;
     clear: none;
     object-fit: fill;
@@ -2142,8 +2407,11 @@ a {
   }
 
   .image-17 {
+    width: 20%;
     max-height: 20%;
     max-width: 20%;
+    margin-left: 5px;
+    margin-right: -6px;
   }
 
   .wrap-copy {
@@ -2192,10 +2460,44 @@ a {
 
   .section.center {
     min-height: 10vh;
-    background-image: url('../images/Group-17-1.png');
+    background-image: url('../images/Group-17-2.png');
     background-position: 50%;
     background-size: cover;
+    background-attachment: scroll;
     padding: 0 0;
+  }
+
+  .section.center.ho {
+    min-height: 0;
+    -webkit-text-fill-color: inherit;
+    background-image: url('../images/addvenceRuleTop_1.jpg');
+    background-position: 38%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    padding-bottom: 11vh;
+  }
+
+  .section.center.session {
+    min-height: 25vh;
+    padding-top: 0;
+  }
+
+  .section.center.session.gameboard {
+    min-height: 25vh;
+  }
+
+  .section.center.session.parkcard {
+    min-height: 35vh;
+    justify-content: center;
+    padding-top: 5vh;
+    bottom: auto;
+  }
+
+  .section.center.session.copy_trpg {
+    min-height: 20vh;
+    background-image: url('../images/DSC02463（大）.png'), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-position: 50%, 0 0;
   }
 
   .section.wide.img {
@@ -2252,6 +2554,13 @@ a {
     margin-left: 0;
   }
 
+  .h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Hina Mincho, sans-serif;
+    font-size: 25px;
+  }
+
   .wrap {
     max-width: 220px;
     justify-content: center;
@@ -2270,7 +2579,7 @@ a {
 
   .wrap.sinario {
     width: auto;
-    max-width: 250px;
+    max-width: 270px;
     min-width: 50px;
     margin-top: 20px;
     margin-left: 5vw;
@@ -2387,11 +2696,17 @@ a {
   }
 
   .paragraph-3 {
-    text-align: left;
+    text-align: center;
+    margin-bottom: 0;
     margin-left: 20px;
     margin-right: 15px;
     font-size: 11px;
     line-height: 25px;
+  }
+
+  .paragraph-3.copy {
+    margin-bottom: 0;
+    font-size: 14px;
   }
 
   .navbar {
@@ -2416,7 +2731,26 @@ a {
   }
 
   .heading-4 {
+    max-width: 280px;
+    min-width: 0;
+    text-align: center;
     align-self: center;
+    font-size: 28px;
+  }
+
+  .heading-4.credit {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+  }
+
+  .heading-4.credit.name {
+    text-transform: none;
+    white-space: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 0;
+    font-size: 15px;
   }
 
   .wrap-2 {
@@ -2426,10 +2760,25 @@ a {
   }
 
   .wrap-2.photo {
-    max-width: 800px;
+    max-width: 320px;
     min-width: 240px;
     align-content: center;
     padding: 5vh 0;
+    display: none;
+  }
+
+  .wrap-2.photo.sp {
+    width: 320px;
+    height: 100%;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    -webkit-text-fill-color: inherit;
+    object-fit: fill;
+    background-image: url('../images/2x1.png');
+    background-clip: border-box;
+    display: block;
+    overflow: visible;
   }
 
   .heading-5 {
@@ -2466,7 +2815,14 @@ a {
   }
 
   .heading-6 {
+    margin-top: -1px;
+    margin-bottom: 40px;
     font-size: 18px;
+  }
+
+  .heading-6.sinario {
+    margin-top: 20px;
+    margin-bottom: 10vh;
   }
 
   .container-2 {
@@ -2487,8 +2843,9 @@ a {
   }
 
   .paragraph-5.story {
+    margin-bottom: 5px;
     margin-left: 8vw;
-    padding-right: 15px;
+    padding-right: 20px;
     font-size: 13px;
   }
 
@@ -2502,6 +2859,11 @@ a {
     margin-right: 10vw;
     padding-right: 0;
     font-size: 12px;
+  }
+
+  .paragraph-5.rules {
+    margin-bottom: 40px;
+    padding-right: 20px;
   }
 
   .heading-7 {
@@ -2525,8 +2887,11 @@ a {
   }
 
   .button-3 {
+    min-width: 30px;
     background-color: #890b0d;
     flex: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family: Hina Mincho, sans-serif;
     font-size: 15px;
     display: block;
@@ -2574,7 +2939,7 @@ a {
   }
 
   .menu-button-2.w--open {
-    background-color: #656565;
+    background-color: #000000;
   }
 
   .image-9 {
@@ -2708,13 +3073,14 @@ a {
     grid-row-gap: 10px;
     grid-template-columns: .25fr 1fr 1.5fr;
     align-self: flex-start;
-    margin-left: 0;
+    margin-left: 10vw;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
   }
 
   .heading-10 {
+    padding-top: 10px;
     font-size: 20px;
   }
 
@@ -2757,14 +3123,14 @@ a {
     display: flex;
   }
 
-  .image-16 {
+  .titleimage {
     text-align: center;
     margin-bottom: 10px;
     margin-left: 0;
     display: none;
   }
 
-  .image-16.res {
+  .titleimage.res {
     margin-bottom: 30px;
     display: block;
   }
@@ -2926,6 +3292,23 @@ a {
     opacity: 0;
     flex: 1;
   }
+
+  .image-27 {
+    padding-left: 0;
+    display: none;
+  }
+
+  .image-28 {
+    padding: 20px 16px 20px 15px;
+    display: block;
+  }
+
+  .credit {
+    margin-top: 0;
+    font-family: Hina Mincho, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
 #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fb9-444820e2 {
@@ -2945,6 +3328,12 @@ a {
 @media screen and (max-width: 991px) {
   #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fbf-444820e2, #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fc4-444820e2, #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fc9-444820e2, #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fcf-444820e2, #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fd4-444820e2, #w-node-_604b5b8f-e7c5-47bc-dfad-29550c8f2fd9-444820e2 {
     justify-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-c7c9e12f-d51e-53b8-5941-c218a68b8b6d-444820e2, #w-node-c7c9e12f-d51e-53b8-5941-c218a68b8b73-444820e2 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
 
