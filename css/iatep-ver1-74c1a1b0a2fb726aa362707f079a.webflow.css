@@ -2058,7 +2058,7 @@ a {
 
   .menu-button-2 {
     text-align: left;
-    background-color: #000;
+    /* background-color: #000; */
     margin-right: 50vh;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   }
@@ -2959,10 +2959,6 @@ a {
     display: flex;
   }
 
-  .menu-button-2.w--open {
-    background-color: #656565;
-  }
-
   .image-9 {
     margin-bottom: 10px;
   }
@@ -2982,7 +2978,7 @@ a {
   }
 
   .nav-menu-3 {
-    background-color: #676767;
+    background-color: #161817;
     margin-right: 0;
     padding-bottom: 10px;
   }
