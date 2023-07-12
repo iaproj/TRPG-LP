@@ -73,7 +73,7 @@ a {
 .section.center {
   height: auto;
   min-height: 120vh;
-  background-color: #cf0063;
+  background-color: #000000;
   background-image: url('../images/top_story_background_green.png');
   background-position: 50% 10%;
   background-repeat: repeat;
@@ -90,7 +90,7 @@ a {
 .section.center.dice {
   height: auto;
   min-height: 90vh;
-  background-color: #fff;
+  /* background-color: #fff; */
   background-image: url('../images/top_invite_background_gametable.png');
   background-position: 0 0;
   background-size: cover;
@@ -139,7 +139,6 @@ a {
 
 .section.center.session.parkcard {
   background-image: url('../images/top_credit_background_monocro.png');
-  background-position: 0 0;
   background-size: cover;
   padding-top: 5vh;
   padding-bottom: 5vh;
