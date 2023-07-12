@@ -5,6 +5,7 @@
  *    without disabling user zoom.
  */
 html {
+  background-color: #000;
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
