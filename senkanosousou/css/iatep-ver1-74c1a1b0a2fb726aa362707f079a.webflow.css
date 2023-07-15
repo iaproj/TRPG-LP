@@ -1191,7 +1191,7 @@ a {
   width: auto;
   max-width: none;
   min-height: 650px;
-  min-width: 650px;
+  min-width: 700px;
   background-image: url('../images/top_ivite_frame_square.png');
   background-position: 50%;
   background-size: cover;
@@ -1574,6 +1574,7 @@ a {
 
 .heading-10 {
   color: #fff;
+  white-space:nowrap;
   border-bottom: 0 #fff;
   border-radius: 0;
   align-self: flex-start;
@@ -2798,7 +2799,7 @@ a {
   }
 
   .wrap-2.photo.sp {
-    width: 320px;
+    width: 360px;
     height: 100%;
     max-width: none;
     min-height: 0;
