@@ -1197,7 +1197,7 @@ a {
   background-size: cover;
   align-self: center;
   padding-top: 40px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 .wrap-2.photo.sp {
@@ -1574,7 +1574,6 @@ a {
 
 .heading-10 {
   color: #fff;
-  white-space:nowrap;
   border-bottom: 0 #fff;
   border-radius: 0;
   align-self: flex-start;
@@ -2028,7 +2027,7 @@ a {
 
   .wrap-2.photo {
     max-width: 700px;
-    min-width: 650px;
+    min-width: 700px;
     object-fit: fill;
     background-size: cover;
     padding-top: 40px;
@@ -2799,7 +2798,6 @@ a {
   }
 
   .wrap-2.photo.sp {
-    width: 360px;
     height: 100%;
     max-width: none;
     min-height: 0;
