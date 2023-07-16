@@ -1,3 +1,12 @@
+.fanbox_button{
+  width:180px;
+}
+a.fanbox_button{
+  margin:auto;
+  margin-top:20px;
+  padding:1px;
+}
+
 .w-backgroundvideo-backgroundvideoplaypausebutton:focus-visible {
   outline-offset: 2px;
   border-radius: 50%;
@@ -532,7 +541,7 @@ a {
   margin-top: 40px;
   margin-bottom: 10px;
   font-family: Hina Mincho, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 500;
 }
 
@@ -2244,7 +2253,7 @@ a {
   }
 
   .wrap.sinario {
-    max-width: 400px;
+    max-width: 433px;
     min-width: auto;
     padding-right: 0;
   }
@@ -2509,7 +2518,7 @@ a {
 
   .section.center.session {
     min-height: 25vh;
-    padding-top: 0;
+    /* padding-top: 0; */
   }
 
   .section.center.session.gameboard {
