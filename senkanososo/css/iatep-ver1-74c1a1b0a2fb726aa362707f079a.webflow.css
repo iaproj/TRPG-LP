@@ -227,8 +227,8 @@ a {
 }
 
 .section.wide.img {
-  height: 0;
-  min-height: 120vh;
+  min-height: 900px;
+  height: 120vh;
   -webkit-text-fill-color: inherit;
   background-color: #000;
   background-image: url('../images/top_outline_backgoround_screen.png');
@@ -251,8 +251,8 @@ a {
 }
 
 .section.wide.img2 {
-  height: 0;
-  min-height: 90vh;
+  min-height: 700px;
+  height: 90vh;
   text-shadow: 0 0 #000;
   background-image: url('../images/top_about_background_imagephoto.png');
   background-position: 50%;
@@ -2375,7 +2375,7 @@ a {
   }
 
   .menu-button-2 {
-    margin-right: 25vh;
+    /*margin-right: 25vh;*/
   }
 
   .bold-text, .bold-text-3 {

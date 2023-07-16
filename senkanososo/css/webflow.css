@@ -1593,12 +1593,12 @@ textarea.w-select {
 }
 .w-nav:before,
 .w-nav:after {
-  content: " ";
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
+  /*content: " ";*/
+  /*display: table;*/
+  /*grid-column-start: 1;*/
+  /*grid-row-start: 1;*/
+  /*grid-column-end: 2;*/
+  /*grid-row-end: 2;*/
 }
 .w-nav:after {
   clear: both;
