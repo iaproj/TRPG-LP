@@ -1097,8 +1097,8 @@ a {
 
 .navbar {
   background-color: #000;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -2060,7 +2060,7 @@ a {
   .menu-button-2 {
     text-align: left;
     /* background-color: #000; */
-    margin-right: 50vh;
+    /* margin-right: 50vh; */
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
   }
 
